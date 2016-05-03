@@ -45,12 +45,12 @@ users = {
 # 1 - MICHAEL CHOI - 11
 # 2 - MARTIN PURYEAR - 13
 
-def printGroupAndNamesAndLength(array):
-    for key in array.iterkeys():
+def printGroupAndNamesAndLength(dictionary):
+    for key in dictionary.iterkeys():
         print key
         count = 1
 
-        for value in array[key]:
+        for value in dictionary[key]:
             length = 0;
             output = str(count) + ' '
             for val in value.itervalues():
